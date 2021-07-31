@@ -26,6 +26,7 @@ A64
 4. 支持所有文件循环播放和单文件循环播放.
 5. 支持背景音乐.
 6. 支持媒体文件管理.
+7. 支持屏幕锁定.
 
 # AndroidStudio 编译
 1. 下载代码: git clone https://github.com/yangxingchen/digitalsignage.git
@@ -35,3 +36,4 @@ A64
 # TODO
 1. 添加定时开关机功能
 2. 增加更多主板的支持
+3. 增加开机自启动
