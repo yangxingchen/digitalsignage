@@ -37,3 +37,8 @@ A64
 1. Add Shutdown Scheduler.
 2. Add more MainBoard Support.
 3. Add auto-run after android system boot finished.
+
+# About US & Connect Info
+We focus on application research and development in the field of digital screens to build an ecosystem for future screen applications.
+Email:  pengyixing@gmail.com
+WeChat: 13349909990
