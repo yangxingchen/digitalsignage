@@ -1,3 +1,5 @@
+# BackGround
+
 # Introduction
 Open source android digital signage player. Can read local and cloud media files. Powerful Open Source Digital Signage content management system with android phone control.
 
