@@ -1,0 +1,36 @@
+# BackGround
+
+# Introduction
+Open source android digital signage player. Can read local and cloud media files. Powerful Open Source Digital Signage content management system with android phone control.
+
+# Keywords
+Digital signage, Digital photo frame, Free digital signage, Digital signage display software, Digital signage player, digital signage advertising, digital signage box.
+
+# Supported Android Version
+Android 6.0
+Android 8.1
+Android 10.0
+Android 11
+
+# Supported MainBoard
+RK3288
+RK3399
+RK3566/RK3568
+A64
+
+# Main Functions
+1. Import local media files and auto play.
+2. Support local and cloud play.
+3. Support upgrade media file by android phone.
+4. Support All files loop and single file loop play.
+5. Support Background music.
+6. Support media files manager.
+
+# AndroidStudio Build
+1. git clone https://github.com/yangxingchen/digitalsignage.git
+2. Install AndroidStudio
+3. Open exist project (Select project fold clone from github)
+
+# TODO
+1. Add Shutdown Scheduler
+2. 

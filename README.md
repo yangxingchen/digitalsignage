@@ -1,34 +1,37 @@
-# Introduction
-Open source android digital signage player. Can read local and cloud media files. Powerful Open Source Digital Signage content management system with android phone control.
+# 项目背景
+目前，安卓数字显示的应用非常广泛，包括数字标牌、数码相框、交互式应用、新零售、智慧城市、智慧医疗等等。我们旨在通过安卓开源的客户端为数字标牌应用领域的用户构建更友好的应用生态。
 
-# Keywords
-Digital signage, Digital photo frame, Free digital signage, Digital signage display software, Digital signage player, digital signage advertising, digital signage box.
+# 介绍
+本开源软件为开源的数字标牌播放器（通俗的说广告机播放器）。播放器能够播放本地和云端的文件。可以通过手机管理云端播放内容。
 
-# Supported Android Version
+# 关键词
+数字标牌, 数码相框, 开源数字标牌, 免费数字标牌, 数字标牌软件, 数字标牌播放器, 数字广告, 数字标牌播放盒, 广告机.
+
+# 支持安卓版本
 Android 6.0
 Android 8.1
 Android 10.0
 Android 11
 
-# Supported MainBoard
+# 支持主板
 RK3288
 RK3399
 RK3566/RK3568
 A64
 
-# Main Functions
-1. Import local media files and auto play.
-2. Support local and cloud play.
-3. Support upgrade media file by android phone.
-4. Support All files loop and single file loop play.
-5. Support Background music.
-6. Support media files manager.
+# 主要功能
+1. 倒入本地文件自动播放.
+2. 支持本地和云端播放.
+3. 支持手机更新云端播放文件.
+4. 支持所有文件循环播放和单文件循环播放.
+5. 支持背景音乐.
+6. 支持媒体文件管理.
 
-# AndroidStudio Build
-1. git clone https://github.com/yangxingchen/digitalsignage.git
-2. Install AndroidStudio
-3. Open exist project (Select project fold clone from github)
+# AndroidStudio 编译
+1. 下载代码: git clone https://github.com/yangxingchen/digitalsignage.git
+2. 安装 AndroidStudio
+3. 在 AndroidStudio 选择打开已有项目，选在第一步下载代码的文件夹即可
 
 # TODO
-1. Add Shutdown Scheduler
-2. 
+1. 添加定时开关机功能
+2. 增加更多主板的支持
