@@ -8,14 +8,11 @@ import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.viewpager.widget.ViewPager;
 
 import com.syzbtech.screen.R;
 import com.syzbtech.screen.adapter.FileFragmentAdapter;
 import com.syzbtech.screen.fragment.LocalFileFragment;
-import com.syzbtech.screen.utils.Util;
-import com.syzbtech.screen.view.CommonDialog;
 
 import org.xutils.view.annotation.ContentView;
 import org.xutils.view.annotation.Event;

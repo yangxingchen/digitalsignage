@@ -12,8 +12,6 @@ import com.bumptech.glide.Glide;
 import com.syzbtech.screen.MyApplication;
 import com.syzbtech.screen.R;
 import com.syzbtech.screen.entities.LocalFile;
-import com.syzbtech.screen.entities.Media;
-import com.syzbtech.screen.http.Api;
 
 import org.xutils.x;
 

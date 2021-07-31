@@ -5,7 +5,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentStatePagerAdapter;
 
-import com.syzbtech.screen.fragment.CloudPlayerFragment;
 import com.syzbtech.screen.fragment.LocalPlayerFragment;
 
 import java.util.ArrayList;
