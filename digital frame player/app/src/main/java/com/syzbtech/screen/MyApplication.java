@@ -4,7 +4,6 @@ import android.app.Application;
 import android.util.Log;
 
 import com.syzbtech.screen.utils.MacUtil;
-import com.syzbtech.screen.utils.NetWorkUtil;
 import com.syzbtech.screen.utils.SettingUtil;
 
 import org.xutils.x;

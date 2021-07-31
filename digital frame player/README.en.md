@@ -27,6 +27,7 @@ A64
 5. Support Background music.
 6. Support media files manager.
 7. Support Screen Pinning.
+8. Support remote control.
 
 # AndroidStudio Build
 1. git clone https://github.com/yangxingchen/digitalsignage.git
@@ -37,3 +38,8 @@ A64
 1. Add Shutdown Scheduler.
 2. Add more MainBoard Support.
 3. Add auto-run after android system boot finished.
+
+# About US & Connect Info
+We focus on application research and development in the field of digital screens to build an ecosystem for future screen applications.
+Email:  pengyixing@gmail.com
+WeChat: 13349909990

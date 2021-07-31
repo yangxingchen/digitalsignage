@@ -117,7 +117,7 @@ public class LoadActivity extends BaseActivity {
         }
     }
 
-    //上传服务绑定。
+    //Upload service binder.
     private class CopyFileServiceConnection implements ServiceConnection {
         @Override
         public void onServiceConnected(ComponentName name, IBinder service) {

@@ -6,8 +6,6 @@ import org.xutils.DbManager;
 import org.xutils.ex.DbException;
 import org.xutils.x;
 
-import java.io.Serializable;
-
 public abstract class BaseDAO<T> {
 
     protected DbManager db;

@@ -5,9 +5,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.TextView;
-import android.widget.Toast;
 
-import androidx.appcompat.app.AlertDialog;
 import androidx.viewpager.widget.ViewPager;
 
 import com.syzbtech.screen.MediaCacheService;
@@ -25,7 +23,6 @@ import com.syzbtech.screen.fragment.CloudPlayerFragment;
 import com.syzbtech.screen.http.AbstractCommonCallback;
 import com.syzbtech.screen.http.Api;
 import com.syzbtech.screen.http.NetParams;
-import com.syzbtech.screen.utils.SettingUtil;
 import com.syzbtech.screen.utils.Util;
 import com.syzbtech.screen.view.CommonDialog;
 

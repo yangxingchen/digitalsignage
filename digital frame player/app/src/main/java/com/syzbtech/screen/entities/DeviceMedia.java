@@ -1,9 +1,5 @@
 package com.syzbtech.screen.entities;
 
-import com.syzbtech.screen.http.JsonResponseParser;
-
-import org.xutils.http.annotation.HttpResponse;
-
 import java.io.Serializable;
 import java.util.Date;
 

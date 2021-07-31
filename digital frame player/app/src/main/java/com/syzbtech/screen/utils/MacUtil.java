@@ -11,7 +11,6 @@ import java.io.InputStreamReader;
 import java.io.LineNumberReader;
 import java.net.NetworkInterface;
 import java.util.Collections;
-import java.util.Enumeration;
 import java.util.List;
 import java.util.Locale;
 

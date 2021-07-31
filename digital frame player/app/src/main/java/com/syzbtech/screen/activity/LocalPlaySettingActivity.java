@@ -1,23 +1,15 @@
 package com.syzbtech.screen.activity;
 
 import android.os.Bundle;
-import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import androidx.annotation.NonNull;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import com.syzbtech.screen.Control;
 import com.syzbtech.screen.R;
-import com.syzbtech.screen.entities.Setting;
-import com.syzbtech.screen.fragment.LocalFileFragment;
 import com.syzbtech.screen.utils.SettingUtil;
 
 import org.xutils.view.annotation.ContentView;

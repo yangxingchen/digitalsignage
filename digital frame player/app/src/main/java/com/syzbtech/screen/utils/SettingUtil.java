@@ -3,7 +3,6 @@ package com.syzbtech.screen.utils;
 import android.content.Context;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
-import android.util.Log;
 
 import com.syzbtech.screen.R;
 import com.syzbtech.screen.entities.Setting;
