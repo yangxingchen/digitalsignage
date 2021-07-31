@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.LocalPlayerActivity">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_empty"
+            android:layout_centerInParent="true"
+            android:src="@mipmap/empty"
+            android:layout_width="@dimen/dp118"
+            android:layout_height="@dimen/dp118"/>
+        <TextView
+            android:textColor="#1296db"
+            android:textSize="@dimen/sp24"
+            android:layout_marginTop="@dimen/dp10"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/img_empty"
+            android:text="@string/empty_local_media"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+
+    <androidx.viewpager.widget.ViewPager
+        android:visibility="gone"
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+</LinearLayout>

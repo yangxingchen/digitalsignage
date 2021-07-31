@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@mipmap/bk_general_port"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CloudPlaySettingActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:background="@drawable/top_bar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp60">
+            <LinearLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:background="@drawable/bk_btn_nav_back"
+                android:id="@+id/rlBackPlay"
+                android:paddingLeft="@dimen/dp20"
+                android:paddingRight="@dimen/dp20"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:src="@mipmap/ic_back"
+                    android:layout_width="@dimen/dp22"
+                    android:layout_height="@dimen/dp22"/>
+                <TextView
+                    android:textSize="@dimen/sp14"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:text="@string/nav_back_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:src="@mipmap/ic_cloud_play"
+                    android:layout_width="@dimen/dp26"
+                    android:layout_height="@dimen/dp26"/>
+                <TextView
+                    android:textSize="@dimen/sp24"
+                    android:textColor="@android:color/white"
+                    android:layout_marginLeft="@dimen/dp8"
+                    android:text="@string/nav_title_cloud_play"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_centerVertical="true"
+                android:background="@drawable/bk_setting_item_normal"
+                android:layout_marginRight="@dimen/dp20"
+                android:layout_alignParentRight="true"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="@dimen/dp224"
+                android:layout_height="@dimen/dp40">
+                <TextView
+                    android:textSize="@dimen/sp14"
+                    android:text="@string/server_ip"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+                </TextView>
+                <TextView
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp14"
+                    android:id="@+id/serverIp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/dp92"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:src="@mipmap/device"
+                android:id="@+id/barcode"
+                android:layout_width="@dimen/dp110"
+                android:layout_height="@dimen/dp110"/>
+            <LinearLayout
+
+                android:layout_marginLeft="@dimen/dp15"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+                <TextView
+                    android:layout_marginTop="@dimen/dp6"
+                    android:textSize="@dimen/sp19"
+                    android:text="@string/txt_scan_add_device"
+                    android:textColor="@android:color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_marginTop="@dimen/dp10"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp14"
+                    android:text="@string/txt_device_code"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:gravity="center"
+                    android:layout_marginTop="@dimen/dp8"
+
+                    android:id="@+id/tvDeviceCode"
+                    android:textSize="@dimen/sp14"
+                    android:textColor="@android:color/white"
+                    android:background="@drawable/bk_setting_item_normal"
+                    android:layout_width="@dimen/dp177"
+                    android:layout_height="@dimen/dp34"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp84"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:clickable="true"
+                android:focusable="true"
+                android:id="@+id/rlNetworkSet"
+                android:layout_width="@dimen/dp170"
+                android:layout_height="@dimen/dp68"
+                android:background="@drawable/bk_setting_item">
+
+                <ImageView
+                    android:id="@+id/icNetwork"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:src="@drawable/bk_wifi" />
+
+                <LinearLayout
+                    android:clickable="true"
+                    android:focusable="true"
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_toRightOf="@+id/icNetwork"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp13"
+                        android:text="@string/txt_network_setting"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sp16" />
+
+                    <TextView
+                        android:id="@+id/tvNetworkState"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp1"
+                        android:layout_marginTop="@dimen/dp4"
+                        android:layout_toRightOf="@+id/icNetwork"
+                        android:text="已注册"
+                        android:textColor="#32c490"
+                        android:textSize="@dimen/sp12" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlAccount"
+                android:clickable="true"
+                android:focusable="true"
+                android:layout_width="@dimen/dp170"
+                android:layout_height="@dimen/dp68"
+                android:layout_marginLeft="@dimen/dp24"
+                android:background="@drawable/bk_setting_item">
+
+                <ImageView
+                    android:id="@+id/icAccount"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="@dimen/dp30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:src="@mipmap/ic_account" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_toRightOf="@+id/icAccount"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp13"
+                        android:text="@string/txt_account"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sp16" />
+
+                    <TextView
+                        android:id="@+id/tvAccountState"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp1"
+                        android:layout_marginTop="@dimen/dp4"
+                        android:layout_toRightOf="@+id/icNetwork"
+                        android:textColor="#32c490"
+                        android:textSize="@dimen/sp12" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+
+                android:id="@+id/rlClear"
+                android:layout_width="@dimen/dp170"
+                android:layout_height="@dimen/dp68"
+                android:layout_marginLeft="@dimen/dp24"
+                android:background="@drawable/bk_setting_item"
+                android:clickable="true"
+                android:focusable="true">
+
+                <ImageView
+                    android:id="@+id/icClear"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="@dimen/dp30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:src="@mipmap/ic_clear" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_toRightOf="@+id/icClear"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp13"
+                        android:text="@string/txt_clear_show"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sp16" />
+
+                    <TextView
+                        android:id="@+id/tvClearState"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp1"
+                        android:layout_marginTop="@dimen/dp4"
+                        android:layout_toRightOf="@+id/icNetwork"
+                        android:textColor="#32c490"
+                        android:textSize="@dimen/sp12" />
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/rlUpgrade"
+                android:layout_width="@dimen/dp170"
+                android:layout_height="@dimen/dp68"
+                android:layout_marginLeft="@dimen/dp24"
+                android:background="@drawable/bk_setting_item"
+                android:clickable="true"
+                android:focusable="true">
+
+                <TextView
+                    android:id="@+id/hasNew"
+                    android:layout_width="@dimen/dp36"
+                    android:layout_height="17.5dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bk_version_new"
+                    android:gravity="center"
+                    android:text="NEW"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp8"
+                    android:visibility="gone" />
+
+                <ImageView
+                    android:id="@+id/icVersion"
+                    android:layout_width="@dimen/dp30"
+                    android:layout_height="@dimen/dp30"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/dp14"
+                    android:src="@mipmap/ic_version" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/dp10"
+                    android:layout_toRightOf="@+id/icVersion"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp13"
+                        android:text="@string/txt_version"
+                        android:textColor="@android:color/white"
+                        android:textSize="@dimen/sp16" />
+
+                    <TextView
+                        android:id="@+id/tvVersion"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="@dimen/dp1"
+                        android:layout_marginTop="@dimen/dp4"
+                        android:layout_toRightOf="@+id/icNetwork"
+                        android:text="@string/txt_registed"
+                        android:textColor="#32c490"
+                        android:textSize="@dimen/sp12" />
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

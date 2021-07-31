@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:padding="@dimen/dp2"
+        android:background="@drawable/bk_item"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        android:layout_marginBottom="@dimen/dp4"
+        android:id="@+id/item"
+        android:clickable="true"
+        android:layout_width="@dimen/dp120"
+        android:layout_height="@dimen/dp120">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:scaleType="center"
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <ImageView
+            android:src="@mipmap/ic_not_check"
+            android:id="@+id/selected"
+            android:layout_marginTop="@dimen/dp8"
+            android:layout_marginRight="@dimen/dp8"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
+    <TextView
+        android:visibility="gone"
+        android:ellipsize="end"
+        android:lines="1"
+        android:textSize="@dimen/sp12"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="@dimen/dp2"
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>
+

@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/icon_background"
+    tools:context=".activity.LoadActivity">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="@dimen/dp192"
+            android:layout_marginLeft="@dimen/dp471"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_device"
+                    android:layout_width="@dimen/dp110"
+                    android:layout_height="@dimen/dp110"
+                    android:src="@mipmap/device" />
+                <TextView
+                    android:layout_marginTop="@dimen/dp4"
+                    android:id="@+id/tvCode"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="@dimen/dp90"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:id="@+id/img_download"
+                    android:layout_width="@dimen/dp110"
+                    android:layout_height="@dimen/dp110"
+                    android:src="@mipmap/device" />
+                <TextView
+                    android:layout_marginTop="@dimen/dp4"
+                    android:text="@string/txt_download"
+                    android:textColor="@android:color/white"
+                    android:textSize="@dimen/sp10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_marginLeft="@dimen/dp441"
+            android:layout_marginTop="@dimen/dp92"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <LinearLayout
+
+                android:clickable="true"
+                android:focusable="true"
+                android:gravity="center"
+                android:id="@+id/btn_local_play"
+                android:layout_width="@dimen/dp170"
+                android:layout_height="@dimen/dp50"
+                android:background="@drawable/bk_play_btn">
+                <ImageView
+                    android:id="@+id/icon_play"
+                    android:layout_width="@dimen/dp22"
+                    android:layout_height="@dimen/dp22"
+                    android:layout_centerVertical="true"
+                    android:src="@mipmap/icon_play" />
+                <TextView
+                    android:textSize="@dimen/sp16"
+                    android:layout_marginLeft="@dimen/dp4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:text="@string/button_local_play"
+                    android:textColor="@android:color/white">
+
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+
+                android:focusable="true"
+                android:gravity="center"
+                android:id="@+id/btn_cloud_play"
+                android:layout_width="@dimen/dp170"
+                android:layout_height="@dimen/dp50"
+                android:layout_marginLeft="@dimen/dp40"
+                android:background="@drawable/bk_play_btn">
+
+                <ImageView
+                    android:id="@+id/icon_local_play"
+                    android:layout_width="@dimen/dp22"
+                    android:layout_height="@dimen/dp22"
+                    android:src="@mipmap/icon_store" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/sp16"
+                    android:layout_marginLeft="@dimen/dp4"
+                    android:text="@string/button_cloud_play"
+                    android:textColor="@android:color/white">
+                </TextView>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
